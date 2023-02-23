@@ -106,7 +106,7 @@ echo -ne '\n  o Done!\n'
 echo
 echo "        Access your Nessus:  https://localhost:11127/ (or your VPS IP)"
 echo "                             username: admin"
-echo "                             password: cyberarsenal"
+echo "                             password: admin"
 echo "                             you can change this any time"
 echo
 read -p "Press enter to continue"
