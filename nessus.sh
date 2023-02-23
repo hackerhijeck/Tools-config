@@ -1,5 +1,3 @@
-## SSH file:
-``
 #!/bin/bash
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 echo //==============================================================
@@ -110,5 +108,3 @@ echo "                             password: admin"
 echo "                             you can change this any time"
 echo
 read -p "Press enter to continue"
-
-```
