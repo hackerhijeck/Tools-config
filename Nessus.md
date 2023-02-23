@@ -15,3 +15,15 @@
    $ rm -rf Nessus
 3. Again follow Installing steps.
 ```
+
+## Other Simple Steps:
+```
+1. Download=> https://cyberarsenal.org/zen/nessus_ubuntu_only_not_for_debian.sh
+2. Chnage the original name to "nessus.sh"
+3. Change the permission=> 
+   $ chmod 777 nessus.sh 
+4. Change the username and password.
+5. Run: ./nessus.sh
+6. After completed:
+   https://IP:11127
+```
