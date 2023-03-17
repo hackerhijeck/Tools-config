@@ -43,13 +43,13 @@ echo "   updates:     off"
 echo "   telemetry:   off"
 /opt/nessus/sbin/nessuscli fix --set report_crashes=false &>/dev/null
 /opt/nessus/sbin/nessuscli fix --set send_telemetry=false &>/dev/null
-echo " o adding a user you can change this later (u:admin,p:cyberarsenal)"
+echo " o adding a user you can change this later (u:admin,p:admin)"
 cat > expect.tmp<<'EOF'
 spawn /opt/nessus/sbin/nessuscli adduser admin
 expect "Login password:"
-send "cyberarsenal\r"
+send "admin\r"
 expect "Login password (again):"
-send "cyberarsenal\r"
+send "admin\r"
 expect "*(can upload plugins, etc.)? (y/n)*"
 send "y\r"
 expect "*(the user can have an empty rules set)"
