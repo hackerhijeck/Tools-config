@@ -11,3 +11,5 @@ sudo make install
 ```
 ### Error fixing:
 https://allabouttesting.org/quick-tutorial-mobsf-installation-on-linux-windows/
+
+https://www.linkedin.com/pulse/mini-how-to-installing-mobsf-macos-big-sur-mobile-app-alissa
