@@ -9,3 +9,5 @@ cd Python-3.9.0
 ./configure
 sudo make install
 ```
+### Error fixing:
+https://allabouttesting.org/quick-tutorial-mobsf-installation-on-linux-windows/
