@@ -1,4 +1,5 @@
-## Installing
+## Installing:
+```
 sudo apt-get update
 mkdir ~/tmp
 cd ~/tmp
@@ -7,3 +8,4 @@ tar -xvzf Python-3.9.0.tgz
 cd Python-3.9.0
 ./configure
 sudo make install
+```
