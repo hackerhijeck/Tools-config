@@ -1,0 +1,2 @@
+# CMD:
+ip -o -4 route show to default | awk '{print $5}'
